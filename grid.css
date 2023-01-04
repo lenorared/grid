@@ -14,18 +14,16 @@ h3{
 }
 
 p, phone, email {
-    font-size: 1.2em; 
-  //  font-weight:600; 
+    font-size: 1.2em;
+    color: #565555;
 } 
 
 .wrapper {
     z-index: 2; 
 	position: relative;  
-    margin: 0;
-	height: 1900px;
 	box-shadow: 2px 2px 4px;
 	background: rgba(4, 53, 24, 0.144);
-	--mask: linear-gradient(red, #{rgba(#000, .45)}); 
+    padding: 10rem 0;
 }
 
 .topSpace{ 
@@ -48,7 +46,7 @@ p, phone, email {
 .container{
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
-    width: 1300px;
+    width: 80%;
     margin: 0px auto; 
     z-index: 10; 
     color: black;
@@ -97,7 +95,7 @@ p, phone, email {
 }
 
 .edu{
-    grid-row:3/5;
+    grid-row: 3/5;
 }
 
 .job {
@@ -111,7 +109,3 @@ p, phone, email {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
-
-
-
