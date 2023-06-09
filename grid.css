@@ -11,6 +11,7 @@ h2, h3, h4 {
 h3{
     font-size: 1.4em; 
     margin: 5px 0px;
+    color: black;
 }
 
 p, phone, email {
@@ -82,9 +83,6 @@ p, phone, email {
 .name h3 {
     font-size: 2em;
 }
-.contact {
-  font-family: 'Times New Roman';
-}
 
 .languages{
     grid-column: 2/4;
@@ -92,24 +90,51 @@ p, phone, email {
 
 .profile{
    grid-column: 2/4;
+   line-height: 1.5;
 }
 
 .edu{
     grid-row: 3/5;
 }
 
+.edu span {
+    color: black;
+    font-weight: bold;
+}
+
 .job {
+    margin-bottom: 50px;
+    border-bottom: 1px grey solid;
+}
+
+.job:last-of-type {
+    border-bottom: none;
+}
+
+.jobTitle {
     display: flex;
     font-weight: bold;
     color: black;
+    margin-top: 20px;
 }
 
-.job span:nth-of-type(2) {
+.jobTitle span:nth-of-type(2) {
     margin-left: auto;
+}
+
+ul {
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .profExp{
     grid-column:1/4;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 30px !important;
 }
